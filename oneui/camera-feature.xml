@@ -61,19 +61,13 @@
     <local name="BACK_CAMERA_SHOOTING_MODE_STICKER" enable="true" visible="true" order="8" />
     <local name="BACK_CAMERA_SHOOTING_MODE_CONTINUOUS_SHOT" enable="true" visible="true" order="9" />
     <local name="BACK_CAMERA_SHOOTING_MODE_SPORTS_SCENE" enable="true" visible="true" order="10" />
-    <local name="BACK_CAMERA_SHOOTINGMODE_VIRTUAL_SHOT" enable="true" visible="true" order="11"/>
-    <local name="BACK_CAMERA_SHOOTINGMODE_VIDEO_COLLAGE" enable="true" visible="true" order="12"/>
-    <local name="BACK_CAMERA_SHOOTINGMODE_LVB" enable="true" visible="true" order="13"/>
 
     <!-- Shootingmode - FRONT -->
     <local name="FRONT_CAMERA_SHOOTING_MODE_SELFIE_FOCUS"  enable="true" visible="true" order="5" />
     <local name="FRONT_CAMERA_SHOOTING_MODE_SELFIE" enable="true" visible="true" order="6" />
     <local name="FRONT_CAMERA_SHOOTING_MODE_VIDEO" enable="true" visible="true" order="7" />
     <local name="FRONT_CAMERA_SHOOTING_MODE_STICKER" enable="true" visible="true" order="8" />
-    <local name="FRONT_CAMERA_SHOOTING_MODE_WIDE_SELFIE" enable="true" visible="true" enable="true" visible="true" order="10" internal-only="false" preview-size="1440x1080" capture-size="1440x1080"/>
-    <local name="FRONT_CAMERA_SHOOTINGMODE_VIRTUAL_SHOT" enable="true" visible="true" order="11" />
-    <local name="FRONT_CAMERA_SHOOTINGMODE_VIDEO_COLLAGE" enable="true" visible="true" order="12" />
-    <local name="FRONT_CAMERA_SHOOTINGMODE_LVB" enable="true" visible="true" order="13" />
+    <local name="FRONT_CAMERA_SHOOTING_MODE_WIDE_SELFIE_LITE" enable="true" visible="true" enable="true" visible="true" order="11" internal-only="false" preview-size="1440x1080" capture-size="1440x1080"/>
 
     <!-- Capture resolution - BACK -->
     <local name="BACK_CAMERA_RESOLUTION_16BY9_LARGE" value="4128x2322" />
@@ -100,8 +94,9 @@
     <!-- Recording resolution - BACK -->
     <local name="BACK_CAMERA_RECORDING_DEFAULT_RESOLUTION" value="1920x1080"/>
     <local name="BACK_CAMERA_RECORDING_MIN_RESOLUTION" value="640x480"/>
-    <local name="BACK_CAMCORDER_RESOLUTION_FEATURE_MAP_3840X2160" value="true" hdr="true" preview-size="1920x1080" snapshot-support="true" snapshot-size="4128x2322" vdis="true" effect="false" object-tracking="false" external-storage-support="true"/>
-    <local name="BACK_CAMCORDER_RESOLUTION_FEATURE_MAP_1920X1080" value="true" hdr="true" preview-size="1920x1080" snapshot-support="true" snapshot-size="4128x2322" vdis="true" effect="true" object-tracking="false" external-storage-support="true"/>
+    <local name="BACK_CAMCORDER_RESOLUTION_FEATURE_MAP_3840X2160" value="true" hdr="true" preview-size="1280x720" snapshot-support="true" snapshot-size="4128x2322" vdis="true" effect="false" object-tracking="false" external-storage-support="true"/>
+    <local name="BACK_CAMCORDER_RESOLUTION_FEATURE_MAP_2560x1440" value="true" hdr="true" preview-size="1280x720" snapshot-support="true" snapshot-size="4128x2322" vdis="true" effect="false" object-tracking="false" external-storage-support="true"/>
+    <local name="BACK_CAMCORDER_RESOLUTION_FEATURE_MAP_1920X1080" value="true" hdr="true" preview-size="1280x720" snapshot-support="true" snapshot-size="4128x2322" vdis="true" effect="true" object-tracking="false" external-storage-support="true"/>
     <local name="BACK_CAMCORDER_RESOLUTION_FEATURE_MAP_1072X1072" value="true" hdr="true" preview-size="1072x1072" snapshot-support="true" snapshot-size="3088x3088" vdis="false" effect="true" object-tracking="false"/>
     <local name="BACK_CAMCORDER_RESOLUTION_FEATURE_MAP_1280X720" value="true" hdr="true" preview-size="1280x720" snapshot-support="true" snapshot-size="4128x2322" vdis="true" effect="true" object-tracking="false" external-storage-support="true"/>
     <local name="BACK_CAMCORDER_RESOLUTION_FEATURE_MAP_640X480" value="true" hdr="true" preview-size="960x720" snapshot-support="true" snapshot-size="4128x3096" vdis="false" effect="true" object-tracking="false" external-storage-support="true"/>
@@ -109,8 +104,9 @@
     <!-- Recording resolution - FRONT -->
     <local name="FRONT_CAMERA_RECORDING_DEFAULT_RESOLUTION" value="1920x1080"/>
     <local name="FRONT_CAMERA_RECORDING_MIN_RESOLUTION" value="640x480"/>
-    <local name="FRONT_CAMCORDER_RESOLUTION_FEATURE_MAP_3840X2160" value="true" hdr="true" preview-size="1920x1080" snapshot-support="true" snapshot-size="4128x2322" vdis="true" effect="false" object-tracking="false" external-storage-support="true"/>
-    <local name="FRONT_CAMCORDER_RESOLUTION_FEATURE_MAP_1920X1080" value="true" hdr="true" preview-size="1920x1080" snapshot-support="true" snapshot-size="4128x2322" vdis="true" effect="true" object-tracking="false" external-storage-support="true"/>
+    <local name="FRONT_CAMCORDER_RESOLUTION_FEATURE_MAP_3840X2160" value="true" hdr="true" preview-size="1280x720" snapshot-support="true" snapshot-size="4128x2322" vdis="true" effect="false" object-tracking="false" external-storage-support="true"/>
+    <local name="FRONT_CAMCORDER_RESOLUTION_FEATURE_MAP_2560x1440" value="true" hdr="true" preview-size="1280x720" snapshot-support="true" snapshot-size="4128x2322" vdis="true" effect="false" object-tracking="false" external-storage-support="true"/>
+    <local name="FRONT_CAMCORDER_RESOLUTION_FEATURE_MAP_1920X1080" value="true" hdr="true" preview-size="1280x720" snapshot-support="true" snapshot-size="4128x2322" vdis="true" effect="true" object-tracking="false" external-storage-support="true"/>
     <local name="FRONT_CAMCORDER_RESOLUTION_FEATURE_MAP_1072X1072" value="true" hdr="true" preview-size="1072x1072" snapshot-support="true" snapshot-size="3088x3088" vdis="false" effect="true" object-tracking="false"/>
     <local name="FRONT_CAMCORDER_RESOLUTION_FEATURE_MAP_1280X720" value="true" hdr="true" preview-size="1280x720" snapshot-support="true" snapshot-size="4128x2322" vdis="true" effect="true" object-tracking="false" external-storage-support="true"/>
     <local name="FRONT_CAMCORDER_RESOLUTION_FEATURE_MAP_640X480" value="true" hdr="true" preview-size="960x720" snapshot-support="true"  snapshot-size="4128x3096" vdis="false" effect="true" object-tracking="false" external-storage-support="true"/>
