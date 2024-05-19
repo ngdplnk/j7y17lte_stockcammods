@@ -5,9 +5,6 @@ To use this mods, download the desired file and make sure to rename it to `camer
 
 ## For OneUI
 
-> [!IMPORTANT]
-> - NOT TESTED, BE CAREFUL!!!
-
 - [Latest camera-feature.xml](https://github.com/ngdplnk/j7y17lte_stockcammods/blob/main/oneui/camera-feature.xml)
 
 - [STOCK camera-feature.xml](https://github.com/ngdplnk/j7y17lte_stockcammods/blob/main/oneui/camera-featureSTOCK.xml)
