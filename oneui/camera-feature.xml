@@ -20,7 +20,7 @@
     <local name="SUPPORT_DYNAMIC_RANGE_CONTROL" value="true" />
 
     <!-- Camera sensor features -->
-    <local name="CAMERA_MAX_ISO" value="1600" />
+    <local name="CAMERA_MAX_ISO" value="800" />
     <local name="BACK_NIGHT_SHOOTINGMODE_PREVIEW_FPS_MIN" value="10000" />
     <local name="CAMCORDER_FRONT_ANTI_SHAKE" value="false" />
     <local name="CAMCORDER_ANTI_SHAKE" value="false" />
