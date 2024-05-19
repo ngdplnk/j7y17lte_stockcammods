@@ -20,7 +20,7 @@
     <local name="SUPPORT_DYNAMIC_RANGE_CONTROL" value="true" />
 
     <!-- Camera sensor features -->
-    <local name="CAMERA_MAX_ISO" value="800" />
+    <local name="CAMERA_MAX_ISO" value="1600" />
     <local name="BACK_NIGHT_SHOOTINGMODE_PREVIEW_FPS_MIN" value="10000" />
     <local name="CAMCORDER_FRONT_ANTI_SHAKE" value="false" />
     <local name="CAMCORDER_ANTI_SHAKE" value="false" />
@@ -55,13 +55,12 @@
     <local name="BACK_CAMERA_SHOOTING_MODE_FOOD" support="true" enable="true" visible="true" order="2" internal-only="false" />
     <local name="BACK_CAMERA_SHOOTING_MODE_NIGHT_SHOT" enable="true" visible="true" order="3" />
     <local name="BACK_CAMERA_SHOOTING_MODE_BURST_PANORAMA_SHOT" enable="true" visible="true" order="4" internal-only="false" preview-size="1920x1080" capture-size="1920x1080" />
-    <local name="BACK_CAMERA_SHOOTING_MODE_PRO_LITE" enable="true" visible="true" order="5" />
+    <local name="BACK_CAMERA_SHOOTING_MODE_PRO" enable="true" visible="true" order="5" />
     <local name="BACK_CAMERA_SHOOTING_MODE_AUTO" enable="true" visible="true" order="6" />
     <local name="BACK_CAMERA_SHOOTING_MODE_VIDEO" enable="true" visible="true" order="7" />
     <local name="BACK_CAMERA_SHOOTING_MODE_STICKER" enable="true" visible="true" order="8" />
     <local name="BACK_CAMERA_SHOOTING_MODE_CONTINUOUS_SHOT" enable="true" visible="true" internal-only="false" order="9" />
     <local name="BACK_CAMERA_SHOOTING_MODE_SPORTS_SCENE" enable="true" visible="true" order="10" />
-    <local name="BACK_CAMERA_SHOOTING_MODE_HYPER_MOTION" enable="true" visible="true" preview-size="1280x720" capture-size="1280x720" order="12" />
 
     <!-- Shootingmode - FRONT -->
     <local name="FRONT_CAMERA_SHOOTING_MODE_SELFIE_FOCUS"  enable="true" visible="true" order="5" />
@@ -91,7 +90,6 @@
     <!-- Resolution for shooting mode -->
     <local name="BURST_PANORAMA_RESOLUTION" value="1920x1080" />
     <local name="WIDE_SELFIE_RESOLUTION" value="1440x1080" />
-    <local name="HYPER_MOTION_RESOLUTION" value="1280x720" />
 
     <!-- Recording resolution - BACK -->
     <local name="BACK_CAMERA_RECORDING_DEFAULT_RESOLUTION" value="1920x1080"/>
