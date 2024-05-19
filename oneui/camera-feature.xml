@@ -32,18 +32,18 @@
     <local name="CAMERA_SUPPORT_PICTURE_FORMAT" value="false" />
     <local name="CAMERA_SUPPORT_FOOD_ADDED_LENS" value="true" />
     <local name="CAMERA_SUPPORT_AUTO_LLS_LITE" value="true" />
-    <local name="SUPPORT_FOCUS_PEAKING" value="true" />
+    <local name="SUPPORT_FOCUS_PEAKING" value="false" />
     <local name="SUPPORT_AR_EMOJI_MODE_USING_INTERNAL_SHOOTING_MODE_STICKER" value="true" />
     <local name="SUPPORT_TAP_TO_TAKE_PICTURES" value="true" />
 
     <!-- Etc. features -->
-    <local name="SUPPORT_VOICE_COMMAND" value="true" />
+    <local name="SUPPORT_VOICE_COMMAND" value="false" />
     <local name="SUPPORT_MOTION_PHOTO" value="false" />
     <local name="SUPPORT_FLOATING_CAMERA_BUTTON" value="true" />
     <local name="SUPPORT_FACE_AR" value="true" />
     <local name="SUPPORT_STAMP" value="true" />
-    <local name="SUPPORT_SUPER_WIDE_RESOLUTION" value="true" />
-    <local name="SUPPORT_FRONT_AF" value="false"/>
+    <local name="SUPPORT_SUPER_WIDE_RESOLUTION" value="false" />
+    <local name="SUPPORT_FRONT_AF" value="true"/>
 
     <!-- Performance features -->
     <local name="SUPPORT_DOWNLOAD_STICKER" value="true" />
@@ -55,7 +55,7 @@
     <local name="BACK_CAMERA_SHOOTING_MODE_FOOD" support="true" enable="true" visible="true" order="2" internal-only="false" />
     <local name="BACK_CAMERA_SHOOTING_MODE_NIGHT_SHOT" enable="true" visible="true" order="3" />
     <local name="BACK_CAMERA_SHOOTING_MODE_BURST_PANORAMA_SHOT" enable="true" visible="true" order="4" internal-only="false" preview-size="1920x1080" capture-size="1920x1080" />
-    <local name="BACK_CAMERA_SHOOTING_MODE_PRO" enable="true" visible="true" order="5" />
+    <local name="BACK_CAMERA_SHOOTING_MODE_PRO_LITE" enable="true" visible="true" order="5" />
     <local name="BACK_CAMERA_SHOOTING_MODE_AUTO" enable="true" visible="true" order="6" />
     <local name="BACK_CAMERA_SHOOTING_MODE_VIDEO" enable="true" visible="true" order="7" />
     <local name="BACK_CAMERA_SHOOTING_MODE_STICKER" enable="true" visible="true" order="8" />
